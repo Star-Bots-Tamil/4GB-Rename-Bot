@@ -17,7 +17,7 @@ class Config(object):
     # other configs
     RKN_PIC = os.environ.get("RKN_PIC", "https://te.legra.ph/file/ba16b6f4c78879c5d5527.jpg")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1391556668').split()]
-    FORCE_SUB = os.environ.get("FORCE_SUB", "Digital_Botz") 
+    FORCE_SUB = os.environ.get("FORCE_SUB", "DP_BOTZ") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001821439025"))
 
     # wes response configuration     
