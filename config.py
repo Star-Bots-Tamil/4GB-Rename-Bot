@@ -1,31 +1,24 @@
-# (c) @RknDeveloperr
-# Rkn Developer 
-# Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Bots
-# Developer @RknDeveloperr
-# Update Channel @Digital_Botz & @DigitalBotz_Support
-
 import re, os, time
 id_pattern = re.compile(r'^.\d+$') 
 
 class Config(object):
     # pyro client config
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID = os.environ.get("API_ID", "11973721")
+    API_HASH = os.environ.get("API_HASH", "5264bf4663e9159565603522f58d3c18")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7074140317:AAErXcg8AiM-o3cJuZcqkBZd8NwgwBmz8WM") 
 
     # premium account string session required 😢 
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Digital_Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","Rename_4GB_Star_Bot")     
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://KarthikMovies:KarthikUK007@cluster0.4l5byki.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
-    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6705898491').split()]
+    RKN_PIC = os.environ.get("RKN_PIC", "https://te.legra.ph/file/ba16b6f4c78879c5d5527.jpg")
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1391556668').split()]
     FORCE_SUB = os.environ.get("FORCE_SUB", "Digital_Botz") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002123429361"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001821439025"))
 
     # wes response configuration     
     PORT = int(os.environ.get("PORT", "8080"))
